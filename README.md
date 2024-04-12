@@ -1,4 +1,4 @@
-![Capa](https://github.com/Souzzagabe/desafio_voluntario/assets/123908995/70110203-69f3-416f-9ac2-f621f07649a4)
+![Capa](https://github.com/Lusketaa/desafio-lacrei/blob/main/public/Capa.png)
 
 # Desafio Técnico - Lacrei Saúde
 
@@ -26,7 +26,6 @@ cd desafio-lacrei
 npm install
 ```
 
-
 ## Uso
 
 1. Inicie o servidor de desenvolvimento
@@ -38,7 +37,14 @@ npm run dev
 
 ## Responsividade
 
+### Desktop:
+![Desktop](https://github.com/Lusketaa/desafio-lacrei/blob/main/public/desktop.png)
 
+### Tablet:
+![Tablet](https://github.com/Lusketaa/desafio-lacrei/blob/main/public/tablet.png)
+
+### Celular:
+![Celular](https://github.com/Lusketaa/desafio-lacrei/blob/main/public/phone.png)
 
 ## Contribuição
 
