@@ -9,9 +9,9 @@ export default function App() {
     <>
       <GlobalStyle />
 
-      <Header data-testid="header" />
-      <Main data-testid="main" />
-      <Footer data-testid="footer" />
+      <Header />
+      <Main />
+      <Footer />
     </>
   )
 }

@@ -7,7 +7,4 @@ module.exports = {
         "\\.(css|less|scss|sass)$": "identity-obj-proxy"
       },
       "resolver": undefined,
-    transform: {
-        "^.+\\.tsx?$": "ts-jest"
-    }
 }

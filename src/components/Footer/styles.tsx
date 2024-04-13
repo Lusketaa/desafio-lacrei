@@ -103,11 +103,11 @@ export const BFooter = styled.div`
     }
 `;
 
-export const Copyright = styled.p`
+export const Copyright = styled.div`
     margin-top: 15px;
 `
 
-export const TextFooter = styled.p`
+export const TextFooter = styled.div`
     display: flex;
     flex-direction: column;
     gap: 8px;

@@ -1,4 +1,5 @@
-import { Wrapper, Divider, SFooter, SocialWrapper, IconWrapper, FooterLinks, Column, Link, TitleLinks, BFooter, TextFooter, Copyright, BtnFooter } from "./styles";
+import { Wrapper, Divider, SFooter, SocialWrapper, IconWrapper, FooterLinks, Column, TitleLinks, Link, BtnFooter, BFooter, TextFooter, Copyright} from "./styles";
+import React from 'react';
 import img from '../../assets/logo-footer.svg';
 import btn from '../../assets/btnFooter.svg';
 import { icons } from "../../utils/icons";
@@ -14,7 +15,7 @@ export default function Footer() {
 
     return (
       <>
-        <Wrapper>
+        <Wrapper data-testid="footer">
           <Divider />
           <SFooter>
             <SocialWrapper>
@@ -65,9 +66,8 @@ export default function Footer() {
               onClick={scrollTop}>
               <img 
               src={btn} 
-              alt="botão para retornar ao topo"/>
-            </BtnFooter>
-              
+              alt="Botão para retornar ao topo"/>
+            </BtnFooter>       
           </BFooter>
         </Wrapper>
       </>

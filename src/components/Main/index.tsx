@@ -1,11 +1,12 @@
 import { ContainerContent, ContainerImg, Wrapper, Title, Subtitle, ContainerButton, Button, CustomButton, Line, Img } from "./styles";
 import img from '../../assets/img.svg';
+import React from 'react';
 
 export default function Main() {
 
     return (
       <>
-        <Wrapper>
+        <Wrapper data-testid="main">
           <ContainerContent>
             <Title>Junte-se à nossa comunidade</Title>
             <Line />

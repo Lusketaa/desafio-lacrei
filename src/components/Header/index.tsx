@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import  React, { useState } from 'react';
 import { Wrapper, Logo, Nav, HamburguerMenu, NavMenuMobile, NavMenuContent, ButtonBase, NavButton } from './styles';
 import { IoClose } from "react-icons/io5";
 import { MdMenu } from "react-icons/md";
+
 
 export default function Header() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -11,18 +12,18 @@ export default function Header() {
   };
 
   return (
-    <Wrapper>
+    <Wrapper data-testid="header">
       <Logo />
-      <HamburguerMenu>
+      <HamburguerMenu data-testid="hamburguerMenu" >
         {isOpenMenu ? (
           <IoClose 
-            size={32}
+            size={40}
             onClick={toggleMenu} 
             style={{zIndex: 999, color: '#018762'}}
           />
         ) : (
           <MdMenu
-            size={32}
+            size={40}
             onClick={toggleMenu}
             style={{zIndex: 999, color: '#018762' }} 
           />
@@ -37,7 +38,7 @@ export default function Header() {
           </NavMenuContent>
         </NavMenuMobile>
       )}
-      <Nav>
+      <Nav data-testid="nav">
         <NavButton href='/'>Quem somos</NavButton>
         <NavButton href='/'>Ajuda</NavButton>
         <ButtonBase>Entrar</ButtonBase>
