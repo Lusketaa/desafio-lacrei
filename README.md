@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-2. Abra o navegador e vá para `http://localhost:3000`.
+2. Abra o navegador e vá para `http://localhost:5173/`.
 
 ## Responsividade
 
