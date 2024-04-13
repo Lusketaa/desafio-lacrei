@@ -3,6 +3,7 @@ export const colors = {
     primaryLight: '#0b9a71',
     primaryLighten: '#B2DFD0',
     white: '#f1f3f5',
+    gray: '#D9D9D9',
     black: '#2D2D2D',
 };
 

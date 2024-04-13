@@ -28,7 +28,7 @@ export default createGlobalStyle`
 
         &::-webkit-scrollbar-thumb{
             border-radius: 10px;
-            border: 6px solid ${colors.primary};
+            border: 6px solid ${colors.gray};
         }
     }
 
