@@ -1,9 +1,8 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom'
-
 import Footer from './index';
-// Import React to ensure JSX syntax works in this file
 import React from 'react';
+
 
 test('should render correctly', () => {
     const { getByTestId, getByText, getByAltText } = render(<Footer />);
