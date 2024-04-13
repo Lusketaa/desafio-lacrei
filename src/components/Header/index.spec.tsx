@@ -1,4 +1,5 @@
 import { render } from '@testing-library/react';
+// Import React to ensure JSX syntax works in this file
 import React from 'react';
 import '@testing-library/jest-dom'
 import Header from './index';
