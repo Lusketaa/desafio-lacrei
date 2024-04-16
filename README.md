@@ -65,4 +65,4 @@ do email: [luccafrietto1@hotmail.com](mailto:luccafrietto1@hotmail.com).
 ## Links
 
 Figma: [Figma](https://www.figma.com/file/CItS5uEtcS33N4BNMxVdzS/Desafio?type=design&node-id=40-8&mode=design&t=sIfS8Ijp3vHboFzA-0)
-Deploy: [Vercel](https://desafio-lacrei-mauve.vercel.app/)
+Deploy: [Vercel](https://desafio-lacrei-opal.vercel.app/)
